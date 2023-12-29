@@ -1,0 +1,24 @@
+what is web elements?
+Everything that you see on the website is an webElement
+
+Selenium we have locators that helps us find these elements
+
+8 locators:
+1) ID  = find the element by ID whose value is ("a")
+2) name
+3) class
+4) Tagname
+5) tagName
+6) linkText 1)there needs to be a tag<a>
+            2) it has some text
+
+7) Partial linkText
+
+
+
+
+
+
+why do we have so many locators
+1) some of the locators might not be available
+2)some times the locator value might not be unique enough
