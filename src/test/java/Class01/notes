@@ -8,17 +8,23 @@ Selenium we have locators that helps us find these elements
 2) name
 3) class
 4) Tagname
-5) tagName
-6) linkText 1)there needs to be a tag<a>
-            2) it has some text
+5) linkText ---------> 1)there needs to be a tag<a>
+            ---------> 2) it has some text
+6) Partial linkText
 
-7) Partial linkText
-
-
-
-
+7) xpath
+8) css
 
 
 why do we have so many locators
 1) some of the locators might not be available
 2)some times the locator value might not be unique enough
+Try to find a locator  unique enough since Seleium is going to inspect to[ to bottom
+and gives you the first match
+
+if there is locator has numbers in it  we should try to avoid it since numbers are dynamic
+it changes  when you go to the website next time.
+
+
+
+

@@ -1,0 +1,25 @@
+
+WebDriver Comments
+1) driver.get()
+2) driver.navigate()---->driver.navigate.refresh()              the difference between driver.get and driver.navigate
+                    ---->driver.navigate.forward())             1)
+                    ---->driver.navigate.backward()
+
+
+driver.findElements(By.xpath("//a"))        are same thing
+driver.findElements(By.tagname("a"))
+
+
+
+
+
+
+
+
+
+
+
+                    the differenece between xpath and CSS
+                    1) syntax is different
+                    2) we dont have text option on Css
+                    3) we have short cuts on Css

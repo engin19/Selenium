@@ -35,7 +35,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //        goto button create new account and click on it
 //        WebElement createAccount = driver.findElement(By.linkText("Create new account"));
 //        createAccount.click();
-                WebElement createAccount = driver.findElement(By.partialLinkText("new account"));
+                WebElement createAccount = driver.findElement(By.partialLinkText("Create "));
                 createAccount.click();
             }
         }
